@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import MenuPreview from "@/components/MenuPreview";
 import Navbar from "@/components/Navbar";
 import ScrollToTopButton from "@/components/ScrollTotop";
 import Head from "next/head";
@@ -22,6 +23,7 @@ const Home = () => {
       <div>
         <Navbar />
         <Hero />
+        <MenuPreview/>
         <Footer />
         <ScrollToTopButton/>
       </div>
