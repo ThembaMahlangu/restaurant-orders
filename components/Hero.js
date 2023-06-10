@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -10,9 +10,11 @@ const Hero = () => {
         <p className="text-lg md:text-2xl lg:text-3xl text-white mb-8 text-center">
           Discover a world of delicious fast food
         </p>
-        <button className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-6 rounded-full shadow-lg">
-          Order Now
-        </button>
+        <Link href={"menu"}>
+          <button className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-6 rounded-full shadow-lg">
+            Order Now
+          </button>
+        </Link>
       </div>
     </div>
   );

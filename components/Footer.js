@@ -1,4 +1,3 @@
-// components/Footer.js
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
@@ -17,22 +16,22 @@ const Footer = () => {
             <h3 className="text-lg font-semibold">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="hover:text-gray-400">
+                <a href="/" className="hover:text-gray-400">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-400">
+                <a href="/menu" className="hover:text-gray-400">
                   Menu
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-400">
+                <a href="/about" className="hover:text-gray-400">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-400">
+                <a href="/contact" className="hover:text-gray-400">
                   Contact
                 </a>
               </li>
@@ -73,6 +72,9 @@ const Footer = () => {
           <p>
             &copy; {new Date().getFullYear()} Everything Foodie. All rights
             reserved.
+          </p>
+          <p>
+            Powered by <a href='https://wa.me/+27769360246'>AsyncFam</a>
           </p>
         </div>
       </div>

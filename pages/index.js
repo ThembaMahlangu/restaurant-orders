@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import EverythingFoodieMap from "@/components/Location";
 import MenuPreview from "@/components/MenuPreview";
 import Navbar from "@/components/Navbar";
 import ScrollToTopButton from "@/components/ScrollTotop";
@@ -26,6 +27,7 @@ const Home = () => {
         <Hero />
         <MenuPreview/>
         <UniqueSellingPoints/>
+        <EverythingFoodieMap/>
         <Footer />
         <ScrollToTopButton/>
       </div>

@@ -1,17 +1,16 @@
-import React from 'react';
 import { menuData } from './Data';
 import Link from 'next/link';
 
 const MenuPreview = () => {
   return (
-    <div className="container mx-auto px-4">
-      <h1 className="text-3xl font-bold text-center mb-8">
-        <u>Menu Preview</u>
-      </h1>
+    <div className="container mx-auto px-4 pt-20">
+      <div className='bg-gray-800 bg-opacity-10 rounded-2xl pt-5 pb-1 px-5 justify-center border-spacing-2 -top-6'>
+            <h1 className="text-3xl font-bold text-center text-red-500 mb-8">Featured Menu</h1>
+        </div>
       {menuData.map((category) => (
         <div key={category.category} className="my-8">
           <h2 className="text-2xl font-semibold text-center mb-4">
-            <u>{category.category}</u>
+            {category.category}
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {category.items.map((item) => (

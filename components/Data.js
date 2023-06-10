@@ -1,6 +1,6 @@
 export const menuData = [
     {
-      category: 'Kota',
+      category: 'KOTA',
       items: [
         {
           id: 1,
@@ -26,7 +26,7 @@ export const menuData = [
       ],
     },
     {
-      category: 'Chips',
+      category: 'CHIPS',
       items: [
         {
           id: 4,
@@ -52,7 +52,7 @@ export const menuData = [
       ],
     },
     {
-      category: 'Drinks',
+      category: 'DRINKS AND BEVERAGES',
       items: [
         {
           id: 7,
