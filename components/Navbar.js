@@ -17,16 +17,13 @@ const Navbar = () => {
 
   return (
     <>
-    {/* Large screens */}
-    <nav className="hidden md:flex fixed w-full z-50 items-center justify-between py-4 px-8 bg-gray-800 shadow-lg">
-    <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between py-4 px-8 bg-gray-800 shadow-lg">
-      <Link href="/" legacyBehavior>
-        <a className="md:text-2xl font-bold text-primary">Everything Foodie</a>
-      </Link>
+      {/* Large screens */}
+      <nav className="hidden md:flex fixed w-full z-50 items-center justify-between py-4 px-8 bg-gray-800 shadow-lg">
+        <Link href="/" legacyBehavior>
+          <a className="md:text-2xl font-bold text-primary">Everything Foodie</a>
+        </Link>
 
-      <div className="hidden sm:flex items-center space-x-4 flex-grow">
-        <div className="flex items-center space-x-4 flex-grow justify-center lg:space-x-8 lg:text-lg">
-        <div className="flex items-center space-x-4 flex-grow justify-center">
+        <div className="hidden sm:flex items-center space-x-4 flex-grow justify-center lg:space-x-8 lg:text-lg">
           <Link href="/" legacyBehavior>
             <a className={`nav-link ${isActive('/')}`}>Home</a>
           </Link>
@@ -42,28 +39,40 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center space-x-4">
-          <a href="https://twitter.com/everythingfoodie" target="_blank" rel="noopener noreferrer" className="nav-link">
+          <a
+            href="https://twitter.com/everythingfoodie"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-link"
+          >
             <FiTwitter className="text-white text-xl hover:text-primary transition-colors duration-300" />
           </a>
-          <a href="https://instagram.com/everythingfoodie" target="_blank" rel="noopener noreferrer" className="nav-link">
+          <a
+            href="https://instagram.com/everythingfoodie"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-link"
+          >
             <FiInstagram className="text-white text-xl hover:text-primary transition-colors duration-300" />
           </a>
-          <a href="https://facebook.com/everythingfoodie" target="_blank" rel="noopener noreferrer" className="nav-link">
+          <a
+            href="https://facebook.com/everythingfoodie"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-link"
+          >
             <FiFacebook className="text-white text-xl hover:text-primary transition-colors duration-300" />
           </a>
         </div>
-      </div>
-      
-    </nav>
+      </nav>
 
-    {/* Small screens */}
-    <nav className="md:hidden fixed w-full z-50 py-4 px-8 bg-gray-800 shadow-lg">
-
-      {/* Logo and hamburger button */}
-      <div className="flex justify-between">
-        <Link href="/" legacyBehavior>
-              <a className="text-2xl font-bold text-primary">Everything Foodie</a>
-            </Link>
+      {/* Small screens */}
+      <nav className="md:hidden fixed w-full z-50 py-4 px-8 bg-gray-800 shadow-lg">
+        {/* Logo and hamburger button */}
+        <div className="flex justify-between">
+          <Link href="/" legacyBehavior>
+            <a className="text-2xl font-bold text-primary">Everything Foodie</a>
+          </Link>
           <button
             type="button"
             className="block text-gray-500 hover:text-primary focus:text-primary focus:outline-none"
@@ -75,8 +84,7 @@ const Navbar = () => {
               <FiMenu className="h-6 w-6 fill-current" />
             )}
           </button>
-      </div>
-        
+        </div>
 
         {/* NavLinks for small screens */}
         {isMenuOpen && (
@@ -97,20 +105,34 @@ const Navbar = () => {
             </div>
             {/* Social media */}
             <div className="flex justify-center space-x-6">
-              <a href="https://twitter.com/everythingfoodie" target="_blank" rel="noopener noreferrer" className="nav-link">
+              <a
+                href="https://twitter.com/everythingfoodie"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="nav-link"
+              >
                 <FiTwitter className="text-white text-xl hover:text-primary transition-colors duration-300" />
               </a>
-              <a href="https://instagram.com/everythingfoodie" target="_blank" rel="noopener noreferrer" className="nav-link">
+              <a
+                href="https://instagram.com/everythingfoodie"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="nav-link"
+              >
                 <FiInstagram className="text-white text-xl hover:text-primary transition-colors duration-300" />
               </a>
-              <a href="https://facebook.com/everythingfoodie" target="_blank" rel="noopener noreferrer" className="nav-link">
+              <a
+                href="https://facebook.com/everythingfoodie"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="nav-link"
+              >
                 <FiFacebook className="text-white text-xl hover:text-primary transition-colors duration-300" />
               </a>
             </div>
           </div>
-        )} 
-    </nav>
-    
+        )}
+      </nav>
     </>
   );
 };

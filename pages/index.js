@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import MenuPreview from "@/components/MenuPreview";
 import Navbar from "@/components/Navbar";
 import ScrollToTopButton from "@/components/ScrollTotop";
+import UniqueSellingPoints from "@/components/SellingPoint";
 import Head from "next/head";
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
         <Navbar />
         <Hero />
         <MenuPreview/>
+        <UniqueSellingPoints/>
         <Footer />
         <ScrollToTopButton/>
       </div>
