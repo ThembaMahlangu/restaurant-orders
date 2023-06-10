@@ -4,7 +4,7 @@ import EverythingFoodieMap from "@/components/Location";
 import MenuPreview from "@/components/MenuPreview";
 import Navbar from "@/components/Navbar";
 import ScrollToTopButton from "@/components/ScrollTotop";
-import UniqueSellingPoints from "@/components/SellingPoint";
+import UniqueSellingPoints from "@/components/SellingPoints";
 import Head from "next/head";
 
 const Home = () => {

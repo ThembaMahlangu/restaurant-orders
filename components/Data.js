@@ -1,3 +1,42 @@
+export const sellPoint = [
+  {
+    name: "Fast Service",
+    description: "At Everything Foodie, we pride ourselves on providing lightning-fast service to our customers. We understand that in today's busy world, time is of the essence. Our efficient ordering and preparation processes ensure that you get your favorite fast food items in no time.",
+    reference: "#",
+    image: [
+      {
+        src: 'https://img.freepik.com/premium-vector/fast-service-logo-template_92086-321.jpg',
+        alt: 'Fast Service',
+
+      }
+    ],
+  },
+  {
+    name: "Fresh Ingredients",
+    description: "We believe that quality is key when it comes to food. That's why we source only the freshest and finest ingredients for our menu. From locally grown produce to premium meats, every bite is packed with flavor and goodness. Experience the difference of our fresh ingredients at Everything Foodie.",
+    reference: "#",
+    image: [
+      {
+        src: 'https://b2326578.smushcdn.com/2326578/wp-content/uploads/2021/08/kota7-extra-Edit.jpg?lossy=1&strip=1&webp=1',
+        alt: 'Fresh Ingredients',
+
+      }
+    ],
+  },
+  {
+    name: "Order and Collect",
+    description: 'Convenience is our priority. With our "Order and Collect" service, you can place your order online and collect it at your convenience. Skip the line and enjoy your meal without any hassle. Try out our easy and convenient Order and Collect service at Everything Foodie.',
+    reference: "#",
+    image: [
+      {
+        src: 'https://media.istockphoto.com/id/1286694479/vector/click-and-collect-banner-vector-illustration.jpg?s=612x612&w=0&k=20&c=meYwMArYSZOq_MN_DciCRrHRQ1LYboT7GYs5FAziZdA=',
+        alt: 'Order and Collect',
+
+      }
+    ],
+  }
+];
+
 export const menuData = [
     {
       category: 'KOTA',
