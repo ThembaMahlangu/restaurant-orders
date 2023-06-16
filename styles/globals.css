@@ -17,14 +17,9 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
+
+
 
 .bg-hero-image {
   background-image: url('https://www.mashed.com/img/gallery/fast-food-orders-that-are-surprisingly-good-for-you/l-intro-1642708415.jpg');
